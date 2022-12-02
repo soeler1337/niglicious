@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login page</title>
-</head>
-<body>
-<form>
-    <label for="pswd">Enter your password: </label>
-    <input type="password" id="pswd">
-    <input type="button" value="Submit" onclick="checkPswd();" />
-</form>
-<!--Function to check password the already set password is admin-->
-<script type="text/javascript">
-    function checkPswd() {
-        var confirmPassword = "admin";
-        var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
-             window.location="main.html";
-        }
-        else{
-            alert("Passwords do not match.");
-        }
-    }
-</script>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f30bf12d8d8c415a0c6d4532c9702b9e9769f02165ad66b4d3bb73dc2893d628
+size 52360
