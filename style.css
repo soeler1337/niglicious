@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:893557f7228e68b1ebdefdf671ce17e1ff8370bb745c2f78ea235d0fd539f6e9
-size 475
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  .container {
+      width: 95%;
+      max-width: 1160px;
+      margin: auto;
+  }
+  .animated-heading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+  }
+  h1 {
+      color: #4b00ff;
+      font-weight: 500;
+  }
+  span#messages {
+      font-weight: bolder;
+  }
+  .content {
+    position: absolute;
+  }
+  .art{
+    position: absolute;
+  }
+  
